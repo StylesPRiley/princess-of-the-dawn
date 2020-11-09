@@ -7,7 +7,7 @@
 const mongoose = require('mongoose');
 
 // Update with your own Database URI
-const mongoDB = process.env.MONGODB_URI || 'mongodb+srv://arias:SPU2020@mongo-db-0.xycwc.mongodb.net/people?retryWrites=true&w=majority';
+const mongoDB = process.env.MONGODB_URI || 'mongodb+srv://use-your-own';
 
 mongoose
     .connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true})
