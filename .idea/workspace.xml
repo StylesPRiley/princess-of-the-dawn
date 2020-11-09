@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5c9c95-3f7b-4568-b08b-8ae619e58c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/friends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/friends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604961535616</updated>
-      <workItem from="1604961538279" duration="3058000" />
+      <workItem from="1604961538279" duration="3380000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, updated package.json">
       <created>1604962055115</created>
@@ -82,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604962055115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished: friend router, model and updated the application, not ran on Heroku yet.">
+      <created>1604964924600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604964924600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,17 +91,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, updated package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, updated package.json" />
+    <MESSAGE value="Finished: friend router, model and updated the application, not ran on Heroku yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished: friend router, model and updated the application, not ran on Heroku yet." />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604962163861">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604962163861" />
-    <state x="346" y="62" key="CommitChangelistDialog2" timestamp="1604962054820">
+    <state x="346" y="44" key="CommitChangelistDialog2" timestamp="1604964924202">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="346" y="62" key="CommitChangelistDialog2/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604962054820" />
+    <state x="346" y="44" key="CommitChangelistDialog2/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964924202" />
     <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1604964238954">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -117,5 +119,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238953" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1604964927465">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964927465" />
   </component>
 </project>
