@@ -9,7 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f5c9c95-3f7b-4568-b08b-8ae619e58c36" name="Default Changelist" comment="" />
+    <list default="true" id="9f5c9c95-3f7b-4568-b08b-8ae619e58c36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/friends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/friends.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +48,12 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.5.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -52,11 +73,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604961535616</updated>
-      <workItem from="1604961538279" duration="431000" />
+      <workItem from="1604961538279" duration="3058000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit, updated package.json">
+      <created>1604962055115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604962055115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit, updated package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, updated package.json" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604962163861">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604962163861" />
+    <state x="346" y="62" key="CommitChangelistDialog2" timestamp="1604962054820">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="346" y="62" key="CommitChangelistDialog2/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604962054820" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1604964238954">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238954" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1604964238951">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238951" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1604964238951">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238951" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1604964238953">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238953" />
   </component>
 </project>
