@@ -7,7 +7,7 @@
 const mongoose = require('mongoose');
 
 // Update with your own Database URI
-const mongoDB = process.env.MONGODB_URI || 'mongodb+srv://Spongebob23:<password>@cluster0.ndhmn.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const mongoDB = process.env.MONGODB_URI || 'mongodb+srv://Spongebob23:password@cluster0.ndhmn.mongodb.net/<dbname>?retryWrites=true&w=majority';
 
 mongoose
     .connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true})
