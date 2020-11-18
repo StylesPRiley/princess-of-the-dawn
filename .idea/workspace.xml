@@ -9,8 +9,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f5c9c95-3f7b-4568-b08b-8ae619e58c36" name="Default Changelist" comment="">
+    <list default="true" id="596c3d85-e1a2-4509-955b-9f241362c747" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,28 +31,24 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1k4YsBu163qMlscNkIIImVmfTzq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1kRIpgAyhjUriOrVmjEFeYsTieU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.5.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,66 +69,41 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f5c9c95-3f7b-4568-b08b-8ae619e58c36" name="Default Changelist" comment="" />
-      <created>1604961535616</created>
+      <changelist id="596c3d85-e1a2-4509-955b-9f241362c747" name="Default Changelist" comment="" />
+      <created>1605657161821</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604961535616</updated>
-      <workItem from="1604961538279" duration="3380000" />
+      <updated>1605657161821</updated>
+      <workItem from="1605657163166" duration="2520000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit, updated package.json">
-      <created>1604962055115</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604962055115</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Finished: friend router, model and updated the application, not ran on Heroku yet.">
-      <created>1604964924600</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604964924600</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit, updated package.json" />
-    <MESSAGE value="Finished: friend router, model and updated the application, not ran on Heroku yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished: friend router, model and updated the application, not ran on Heroku yet." />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604962163861">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605658057525">
+      <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604962163861" />
-    <state x="346" y="44" key="CommitChangelistDialog2" timestamp="1604964924202">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1605658057525" />
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom" timestamp="1605658860370">
+      <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="346" y="44" key="CommitChangelistDialog2/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964924202" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1604964238954">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1605658860370" />
+    <state width="1347" height="267" key="GridCell.Tab.0.center" timestamp="1605658860369">
+      <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238954" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1604964238951">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1605658860369" />
+    <state width="1347" height="267" key="GridCell.Tab.0.left" timestamp="1605658860369">
+      <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238951" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1604964238951">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1605658860369" />
+    <state width="1347" height="267" key="GridCell.Tab.0.right" timestamp="1605658860369">
+      <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238951" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1604964238953">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964238953" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1604964927465">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.-57.1920.1057@0.23.1440.877" timestamp="1604964927465" />
+    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1605658860369" />
   </component>
 </project>
