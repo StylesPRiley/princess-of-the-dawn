@@ -11,7 +11,7 @@
 let express = require('express');
 let router = express.Router();
 // For the Data Model
-let FriendSchema = require('../models/friends');
+let BookSchema = require('../models/books');
 
 
 function HandleError(response, reason, message, code){
@@ -20,49 +20,47 @@ function HandleError(response, reason, message, code){
 }
 
 router.post('/', (request, response, next) => {
-    let newFriend = request.body;
+    let newBook = request.body;
     //console.log(request.body);
-    if (!newFriend.firstName || !newFriend.lastName || !newFriend.phone){
+    if (!newBook.title || !newBook.author || !newBook.isbn){
         HandleError(response, 'Missing Info', 'Form data missing', 500);
     }else{
-        let friend = new FriendSchema({
-            firstName: newFriend.firstName,
-            lastName: newFriend.lastName,
-            phone: newFriend.phone,
-            email: newFriend.email,
-            birthday: newFriend.birthday,
-            callAnytime: newFriend.callAnytime
+        let book = new BookSchema({
+            title: newBook.title,
+            author: newBook.author,
+            isbn: newBook.isbn,
+            price: newBook.price,
         });
         friend.save((error) => {
             if (error){
                 response.send({"error": error});
             }else{
-                response.send({"id": friend.id});
+                response.send({"id": book.id});
             }
         });
     }
 });
 
 router.get('/', (request, response, next) => {
-    let name = request.query['name'];
-    if (name){
+    let title = request.query['title'];
+    if (title){
         FriendSchema
-            .find({"firstName": name})
-            .exec( (error, friends) => {
+            .find({"title": title})
+            .exec( (error, books) => {
                 if (error){
                     response.send({"error": error});
                 }else{
-                    response.send(friends);
+                    response.send(books);
                 }
             });
     }else{
-        FriendSchema
+        BookSchema
             .find()
-            .exec( (error, friends) => {
+            .exec( (error, books) => {
                 if (error){
                     response.send({"error": error});
                 }else{
-                    response.send(friends);
+                    response.send(books);
                 }
             });
     }
@@ -78,7 +76,7 @@ router.get('/', (request, response, next) => {
 } );
 
 router.get('/:id', (request, response, next) =>{
-    FriendSchema
+    BookSchema
         .findOne({"_id": request.params.id}, (error, result) =>{
             if (error) {
                 response.status(500).send(error);
@@ -93,7 +91,7 @@ router.get('/:id', (request, response, next) =>{
 });
 
 router.patch('/:id', (request, response, next) =>{
-    FriendSchema
+    BookSchema
         .findById(request.params.id, (error, result)=>{
             if (error) {
                 response.status(500).send(error);
@@ -108,7 +106,7 @@ router.patch('/:id', (request, response, next) =>{
                     if (error){
                         response.status(500).send(error);
                     }
-                    response.send(friend);
+                    response.send(book);
                 });
             }else{
                 response.status(404).send({"id": request.params.id, "error":  "Not Found"});
@@ -118,7 +116,7 @@ router.patch('/:id', (request, response, next) =>{
 });
 
 router.delete('/:id', (request, response, next) =>{
-    FriendSchema
+    BookSchema
         .findById(request.params.id, (error, result)=>{
             if (error) {
                 response.status(500).send(error);

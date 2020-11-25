@@ -9,9 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="596c3d85-e1a2-4509-955b-9f241362c747" name="Default Changelist" comment="">
+    <list default="true" id="52e75f13-81f5-455a-94c1-2ccfc7b6988d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/friends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +27,18 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1kRIpgAyhjUriOrVmjEFeYsTieU" />
+  <component name="ProjectId" id="1kg5lhXzspRx3HbgtW5azFrp0xJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -34,11 +48,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.5" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,32 +66,53 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="596c3d85-e1a2-4509-955b-9f241362c747" name="Default Changelist" comment="" />
-      <created>1605657161821</created>
+      <changelist id="52e75f13-81f5-455a-94c1-2ccfc7b6988d" name="Default Changelist" comment="" />
+      <created>1606109546802</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605657161821</updated>
-      <workItem from="1605657163166" duration="6992000" />
-      <workItem from="1605666196579" duration="75000" />
+      <updated>1606109546802</updated>
+      <workItem from="1606109548627" duration="1497000" />
+      <workItem from="1606179193651" duration="2081000" />
+      <workItem from="1606186905597" duration="35000" />
+      <workItem from="1606192259854" duration="2152000" />
+      <workItem from="1606264941781" duration="132000" />
+      <workItem from="1606267736918" duration="2657000" />
+      <workItem from="1606270825143" duration="644000" />
+      <workItem from="1606273750081" duration="332000" />
+      <workItem from="1606274647834" duration="2143000" />
     </task>
-    <task id="LOCAL-00001" summary="almost done">
-      <created>1605659699904</created>
+    <task id="LOCAL-00001" summary="Getting ready to connect to heroku">
+      <created>1606192310077</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1605659699904</updated>
+      <updated>1606192310077</updated>
     </task>
-    <task id="LOCAL-00002" summary="almost done">
-      <created>1605660677405</created>
+    <task id="LOCAL-00002" summary="Getting ready to connect to heroku">
+      <created>1606193024300</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1605660677405</updated>
+      <updated>1606193024300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Getting ready to connect to heroku">
+      <created>1606270412800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606270412800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,33 +120,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost done" />
+    <MESSAGE value="Getting ready to connect to heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting ready to connect to heroku" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605658057525">
+    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606109874527">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1605658057525" />
-    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1605660676734">
+    <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606109874527" />
+    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606270411989">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1605660676734" />
-    <state width="1347" height="267" key="GridCell.Tab.0.bottom" timestamp="1605664160192">
+    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606270411989" />
+    <state width="1361" height="171" key="GridCell.Tab.0.bottom" timestamp="1606277050784">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1605664160192" />
-    <state width="1347" height="267" key="GridCell.Tab.0.center" timestamp="1605664160191">
+    <state width="1361" height="171" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050784" />
+    <state width="1361" height="171" key="GridCell.Tab.0.center" timestamp="1606277050784">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1605664160191" />
-    <state width="1347" height="267" key="GridCell.Tab.0.left" timestamp="1605664160191">
+    <state width="1361" height="171" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050784" />
+    <state width="1361" height="171" key="GridCell.Tab.0.left" timestamp="1606277050783">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1605664160191" />
-    <state width="1347" height="267" key="GridCell.Tab.0.right" timestamp="1605664160192">
+    <state width="1361" height="171" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050783" />
+    <state width="1361" height="171" key="GridCell.Tab.0.right" timestamp="1606277050784">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1347" height="267" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1605664160192" />
+    <state width="1361" height="171" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050784" />
   </component>
 </project>
