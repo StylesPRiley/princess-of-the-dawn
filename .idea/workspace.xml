@@ -10,14 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e75f13-81f5-455a-94c1-2ccfc7b6988d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/books.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/friends.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1606267736918" duration="2657000" />
       <workItem from="1606270825143" duration="644000" />
       <workItem from="1606273750081" duration="332000" />
-      <workItem from="1606274647834" duration="2143000" />
+      <workItem from="1606274647834" duration="2751000" />
     </task>
     <task id="LOCAL-00001" summary="Getting ready to connect to heroku">
       <created>1606192310077</created>
@@ -112,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606270412800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made corrections to connect to mongoose">
+      <created>1606277099498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606277099498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,32 +123,33 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Getting ready to connect to heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting ready to connect to heroku" />
+    <MESSAGE value="made corrections to connect to mongoose" />
+    <option name="LAST_COMMIT_MESSAGE" value="made corrections to connect to mongoose" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606109874527">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
     <state x="433" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1405.1003@0.0.1405.1003" timestamp="1606109874527" />
-    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606270411989">
+    <state x="276" y="82" key="CommitChangelistDialog2" timestamp="1606277098216">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606270411989" />
-    <state width="1361" height="171" key="GridCell.Tab.0.bottom" timestamp="1606277050784">
+    <state x="276" y="82" key="CommitChangelistDialog2/0.0.1405.1003@0.0.1405.1003" timestamp="1606277098216" />
+    <state width="1361" height="171" key="GridCell.Tab.0.bottom" timestamp="1606277554088">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1361" height="171" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050784" />
-    <state width="1361" height="171" key="GridCell.Tab.0.center" timestamp="1606277050784">
+    <state width="1361" height="171" key="GridCell.Tab.0.bottom/0.0.1405.1003@0.0.1405.1003" timestamp="1606277554088" />
+    <state width="1361" height="171" key="GridCell.Tab.0.center" timestamp="1606277554087">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1361" height="171" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050784" />
-    <state width="1361" height="171" key="GridCell.Tab.0.left" timestamp="1606277050783">
+    <state width="1361" height="171" key="GridCell.Tab.0.center/0.0.1405.1003@0.0.1405.1003" timestamp="1606277554087" />
+    <state width="1361" height="171" key="GridCell.Tab.0.left" timestamp="1606277554087">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1361" height="171" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050783" />
-    <state width="1361" height="171" key="GridCell.Tab.0.right" timestamp="1606277050784">
+    <state width="1361" height="171" key="GridCell.Tab.0.left/0.0.1405.1003@0.0.1405.1003" timestamp="1606277554087" />
+    <state width="1361" height="171" key="GridCell.Tab.0.right" timestamp="1606277554088">
       <screen x="0" y="0" width="1405" height="1003" />
     </state>
-    <state width="1361" height="171" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606277050784" />
+    <state width="1361" height="171" key="GridCell.Tab.0.right/0.0.1405.1003@0.0.1405.1003" timestamp="1606277554088" />
   </component>
 </project>

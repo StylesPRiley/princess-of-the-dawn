@@ -2,14 +2,13 @@ const mongoose = require('mongoose');
 
 let Schema = mongoose.Schema;
 
-let FriendSchema = new Schema({
-    firstName: String,
-    lastName: String,
-    phone: String,
-    email: String,
-    birthday: Date,
-    callAnytime: Boolean
+let Double;
+let BookSchema = new Schema({
+    title: String,
+    author: String,
+    isbn: String,
+    price: Double,
 });
 
-module.exports = mongoose.model('Friend', FriendSchema);
+module.exports = mongoose.model('Book', BookSchema);
 
